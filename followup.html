@@ -1,64 +1,86 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Follow-up tool, English Coffee Break</title>
-<meta name="description" content="Jot notes in a Google Doc after each lesson. Your student gets a clear follow-up e-mail.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-<header class="nav"><div class="in">
-  <a class="wordmark" href="index.html">English Coffee Break</a>
-  <nav><ul><li><a href="materials.html">Materials</a></li><li><a href="followup.html" aria-current="page">Follow-up tool</a></li></ul></nav>
-</div></header>
-
+<title>Follow-up tool · English Coffee Break</title><meta name="description" content="Jot notes in a Google Doc after each lesson. Your student gets a clear follow-up e-mail.">
+<meta name="theme-color" content="#0A0F1E">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta property="og:type" content="website"><meta property="og:site_name" content="English Coffee Break">
+<meta property="og:title" content="Follow-up tool · English Coffee Break"><meta property="og:description" content="Jot notes in a Google Doc after each lesson. Your student gets a clear follow-up e-mail.">
+<meta property="og:url" content="https://ondrejveverka-wq.github.io/english-coffee-break/followup.html"><meta property="og:image" content="https://ondrejveverka-wq.github.io/english-coffee-break/assets/og-tool.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body class="t-tool">
+<header class="nav"><div class="in"><a class="brand" href="index.html">English Coffee Break</a>
+<nav><ul>
+<li class="opt"><a href="index.html#free">Free lessons</a></li>
+<li class="opt"><a href="index.html#lessons">Lessons</a></li>
+<li><a class="pill" href="mailto:onrejveverka@gmail.com?subject=Follow-up%20tool%20early%20access">Ask for early access</a></li>
+</ul></nav></div></header>
+<div class="switch-wrap"><nav class="switch" aria-label="Choose a section">
+<a href="index.html">Lesson plans</a><a href="followup.html" aria-current="page">Follow-up tool</a></nav></div>
 <main>
-<section>
+<section class="hero" style="padding-bottom:0">
   <div class="wrap">
     <p class="eyebrow">Follow-up tool · Early access</p>
-    <h1>Your lesson ends. The follow-up writes itself.</h1>
-    <p class="lead">Jot a few notes in a Google Doc after each lesson. Your student gets a clear follow-up e-mail with the new words. You skip the evening admin.</p>
-    <div class="actions"><a class="btn btn-primary" href="mailto:onrejveverka@gmail.com?subject=Follow-up%20tool%20early%20access">Ask for early access</a></div>
+    <h1 class="h-hero">Your lesson ends.<br>The follow-up<br><span>writes itself.</span></h1>
+    <p class="sub">Jot a few notes in a Google Doc. Your student gets a clear follow-up e-mail with the new words. No evening admin.</p>
+    <div class="row"><a class="btn" href="mailto:onrejveverka@gmail.com?subject=Follow-up%20tool%20early%20access">Ask for early access</a><a class="more" href="#how">How it works</a></div>
+  </div>
+  <div class="wrap">
+    <div class="mock" aria-label="Example: notes in a Google Doc become a follow-up e-mail">
+      <div class="doc">
+        <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; Wednesday 14 October · daily Doc</div>
+        <table>
+          <tr><th>Student</th><td><b>Anna K.</b>, Wed 17:00</td></tr>
+          <tr><th>Notes</th><td>Travel plans. Present perfect vs past simple. Fluent, watch word order after "never".</td></tr>
+          <tr><th>New words</th><td>luggage, delay, itinerary</td></tr>
+          <tr><th>Homework</th><td>Write five sentences about places you have visited.</td></tr>
+          <tr><th>Status</th><td><span class="chip">Prepare email</span></td></tr>
+        </table>
+      </div>
+      <div class="arrow">→</div>
+      <div class="mail">
+        <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; Draft</div>
+        <div class="hdr"><b>To:</b> Anna<br><b>Subject:</b> Lesson recap, 14 October</div>
+        <div class="msg"><p>Hi Anna,</p><p>Great lesson today. We practised the present perfect and talked about your travel plans.</p><p><b>New words:</b> luggage, delay, itinerary</p><p><b>Homework:</b> five sentences about places you have visited.</p><p>See you next week!</p></div>
+      </div>
+    </div>
+    <p class="cap">EXAMPLE. YOU READ AND EDIT THE DRAFT BEFORE IT GOES OUT.</p>
   </div>
 </section>
 
-<section class="band-parchment">
-  <div class="wrap narrow">
+<section class="center" id="how">
+  <div class="wrap">
     <p class="eyebrow">How it works</p>
-    <h2>Four steps, all in Google Docs.</h2>
-    <ol class="steps">
-      <li><div><strong>Write your notes.</strong><br><span class="muted">After a lesson, add your notes, the new words and any homework to your daily Google Doc.</span></div></li>
-      <li><div><strong>Set the row to Prepare email.</strong><br><span class="muted">That is the only button you press.</span></div></li>
-      <li><div><strong>Read the draft.</strong><br><span class="muted">It appears in the same Doc. Change anything you like.</span></div></li>
-      <li><div><strong>It goes to your student.</strong><br><span class="muted">The lesson is also added to that student's own Doc, so you keep a clean record.</span></div></li>
-    </ol>
+    <h2 class="h-sec">Four steps. All in Google Docs.</h2>
+    <div class="steps">
+      <div class="step"><i>01</i><b>Write your notes</b><span>After a lesson, add notes, new words and homework to your daily Doc.</span></div>
+      <div class="step"><i>02</i><b>Mark it ready</b><span>Set the row to Prepare email. That is the only button.</span></div>
+      <div class="step"><i>03</i><b>Read the draft</b><span>It appears in the same Doc. Change anything you like.</span></div>
+      <div class="step"><i>04</i><b>It is sent</b><span>The lesson is added to that student's own Doc, so you keep a clean record.</span></div>
+    </div>
   </div>
 </section>
 
-<section>
-  <div class="wrap narrow">
-    <h2>Why teachers like it</h2>
-    <p class="lead">It lives in the Google Docs you already use. Nothing to install and no new place to check.</p>
-    <p class="muted" style="margin-top:var(--sp-md)">You always see the e-mail before it goes out, and everything stays in your own Google Drive.</p>
+<section class="band center">
+  <div class="wrap">
+    <h2 class="h-sec">Lives where you already work.</h2>
+    <p class="sub">Nothing to install and no new place to check. You always see the e-mail before it goes out, and everything stays in your own Google Drive.</p>
   </div>
 </section>
 
-<section class="band-dark">
-  <div class="wrap narrow">
+<section class="center">
+  <div class="wrap">
     <p class="eyebrow">Early access</p>
-    <h2>Built by a teacher, for teachers.</h2>
-    <p class="lead">It is not open to everyone yet. If you teach and would like to try it, write to me.</p>
-    <div class="actions"><a class="btn btn-primary" href="mailto:onrejveverka@gmail.com?subject=Follow-up%20tool%20early%20access" style="background:#fff;color:var(--tile-1)">Ask for early access</a></div>
+    <h2 class="h-sec">Built by a teacher,<br>for teachers.</h2>
+    <p class="sub">It is not open to everyone yet. If you teach and would like to try it, write to me.</p>
+    <div class="row"><a class="btn" href="mailto:onrejveverka@gmail.com?subject=Follow-up%20tool%20early%20access">Ask for early access</a></div>
   </div>
 </section>
 </main>
-<footer><div class="wrap">
-  <span>© Ondrej · English Coffee Break · Premium ESL Materials</span>
-  <span><a href="mailto:onrejveverka@gmail.com">onrejveverka@gmail.com</a> · <a href="privacy.html">Privacy policy</a></span>
-</div></footer>
-</body>
-</html>
+<footer><div class="in"><span>© Ondrej · English Coffee Break · Premium ESL Materials. Some audio and pictures in these materials are AI-generated, and each product says so where it applies.</span>
+<span><a href="privacy.html">Privacy policy</a> · <a href="mailto:onrejveverka@gmail.com">onrejveverka@gmail.com</a></span></div></footer>
+
+</body></html>
